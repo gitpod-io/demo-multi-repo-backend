@@ -1,0 +1,28 @@
+## Learn more about this file at 'https://www.gitpod.io/docs/references/gitpod-yml'
+##
+## This '.gitpod.yml' file when placed at the root of a project instructs
+## Gitpod how to prepare & build the project, start development environments
+## and configure continuous prebuilds. Prebuilds when enabled builds a project
+## like a CI server so you can start coding right away - no more waiting for
+## dependencies to download and builds to finish when reviewing pull-requests
+## or hacking on something new.
+##
+## With Gitpod you can develop software from any device (even iPads) via 
+## desktop or browser based versions of VS Code or any JetBrains IDE and
+## customise it to your individual needs - from themes to extensions, you
+## have full control.
+##
+## The easiest way to try out Gitpod is install the browser extenion:
+## 'https://www.gitpod.io/docs/browser-extension' or by prefixing
+## 'https://gitpod.io#' to the source control URL of any project.
+##
+## For example: 'https://gitpod.io#https://github.com/gitpod-io/gitpod'
+
+## The optional 'mainConfiguration' key when defined points to the
+## repository with the main `.gitpod.yml` file and makes it possible to open
+## the same workspace from any issue, branch or other context URL from any
+## repository defined in a multi repository configuration.
+##
+## Learn more about delegation at 'https://www.gitpod.io/docs/multi-repo-workspaces'
+
+mainConfiguration: https://github.com/gitpod-io/demo-multi-repo-frontend
